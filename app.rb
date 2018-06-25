@@ -12,6 +12,6 @@ class App < Sinatra::Base
 
   get '/friends' do
     # Write your code here!
-
+    puts params
   end
 end
